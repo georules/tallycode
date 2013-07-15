@@ -5,9 +5,17 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+<style>
+.content {
+	margin-top:50px;
+}
+</style>
 </head>
 <body>
 
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner">
+<div class="container">
 <p class="navbar-text pull-right">
 <% if user_signed_in? %>
   Logged in as <strong><%= current_user.email %></strong>.
@@ -24,8 +32,13 @@
 <% if alert %>
   <p class="alert alert-error"><%= alert %></p>
 <% end %>
+</div>
+</div>
+</div>
 
+<div class="container content">
 <%= yield %>
+</div>
 
 </body>
 </html>
