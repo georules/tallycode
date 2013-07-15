@@ -6,6 +6,6 @@ A website in progress for a Tallahassee Coding Group.
  
 * Ruby 2.0.0 / Rails 4.0.0
 
-== Built by
+== https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif Built by
 Geo :: https://github.com/georules
 Tyler :: https://github.com/Tylerjd
