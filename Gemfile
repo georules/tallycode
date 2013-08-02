@@ -5,7 +5,7 @@ gem 'rails', '4.0.0'
 
 gem 'therubyracer'
 gem 'less-rails-bootstrap'
-gem 'devise', '~> 3.0.0.rc'
+gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
