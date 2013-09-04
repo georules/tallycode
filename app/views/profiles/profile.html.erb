@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="row">
+        <div class="span6">
+            <h1><%= @user.firstname %> <%= @user.lastname </h1>
+        </div>
+    </div>
+</div><br>
+<div class="container">
+    <div class="well">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="span2">
+                    <img src="http://placehold.it/175x175" class="pull-right img-polaroid">
+                </div>
+                <div class="span4">
+                    <h3>About<br></h3> 
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="span3">
+                                    <a class="btn btn-link disabled">Age: <%= @user.age %><br></a>
+                                </div>
+                                <div class="span3">
+                                    <a class="btn btn-link" src="<%= @user.website %>">Website<br></a>
+                                </div>
+                                <div class="span3">
+                                    <a class="btn btn-link" src="<%= @user.github %>>GitHub<br></a>
+                                </div>
+                                <div class="span3">
+                                    <a class="btn btn-link" src="<%= @user.twitter %>>Twitter<br></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span2">
+                        <h4>Featured Language</h4>
+                        <img src="http://placehold.it/125x50" alt="mainBadge">
+                    </div>
+                    <div class="span2">
+                        <h4>Featured Badge</h4>
+                        <img src="http://placehold.it/125x50" alt="mainBadge">
+                    </div>
+                </div>
+            </div><br>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="pull-left span4">
+                        <h4>Last Meeting Attended</h4>
+                        <p>8/10/13 @ <a href="#">What ? Cafe</a></p>
+                    </div>
+                    <div class="pull-left span4">
+                        <h4>Last Project Updated</h4>
+                        <p><a href="#">TallyCode on GitHub</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
